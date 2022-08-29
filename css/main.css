@@ -219,38 +219,6 @@ main {
     display: flex;
     justify-content: center;
     font-size: 30px; }
-  main .mainCoyuntura {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "cajaCoyuntura1 cajaCoyuntura2"  "cajaCoyuntura3 cajaCoyuntura4" "cajaCoyuntura5 cajaCoyuntura5"; }
-  main .cajaCoyuntura1 {
-    grid-area: cajaCoyuntura1;
-    border: solid #290829;
-    padding: 1rem;
-    margin: 0.5rem; }
-    main .cajaCoyuntura1 .imgCoyuntura1 {
-      width: 100%; }
-  main .cajaCoyuntura2 {
-    grid-area: cajaCoyuntura2;
-    border: solid #290829;
-    padding: 1rem;
-    margin: 0.5rem; }
-  main .cajaCoyuntura3 {
-    grid-area: cajaCoyuntura3;
-    border: solid #290829;
-    padding: 1rem;
-    margin: 0.5rem; }
-  main .cajaCoyuntura4 {
-    grid-area: cajaCoyuntura4;
-    border: solid #290829;
-    padding: 1rem;
-    margin: 0.5rem; }
-  main .cajaCoyuntura5 {
-    grid-area: cajaCoyuntura5;
-    border: solid #290829;
-    padding: 1rem;
-    margin: 0.5rem; }
 
 footer {
   font-size: 13px;
